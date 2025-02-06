@@ -1,0 +1,1 @@
+This repository contains examples of uncommon CSS errors and their solutions.  The `bug.css` file demonstrates the errors, while `bugSolution.css` provides the corrected code. The errors shown include specificity issues, problems with selector nesting and overuse of !important. Read the comments in the CSS files for detailed explanations.
