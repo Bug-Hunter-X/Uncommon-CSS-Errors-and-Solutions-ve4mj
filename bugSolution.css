@@ -1,0 +1,16 @@
+/* Solution to CSS specificity and nesting issues */
+
+/* Instead of relying on !important, use more specific selectors to target the desired elements.  For example, if you have conflicting styles between a class and an ID, use the ID selector as it has higher specificity. */
+#myElement {
+  color: blue;
+}
+
+/* Correctly nest selectors using the & symbol to avoid unintended style application. */
+.parent {
+  background-color: lightgray;
+  & .child {
+    color: red;
+  }
+}
+
+/* Avoid unnecessary use of !important, as it can cause maintainability issues. Prioritize well-structured selectors and CSS specificity to avoid the need for !important.*/
